@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcBundleConfig", "MvcBundleConfig\MvcBundleConfig.csproj", "{2334281A-45C9-43FA-9751-47D976579B03}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcApplication", "MvcApplication\MvcApplication.csproj", "{0D5914CB-898A-4273-95BF-8D66239F5DDD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2334281A-45C9-43FA-9751-47D976579B03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2334281A-45C9-43FA-9751-47D976579B03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2334281A-45C9-43FA-9751-47D976579B03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2334281A-45C9-43FA-9751-47D976579B03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D5914CB-898A-4273-95BF-8D66239F5DDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D5914CB-898A-4273-95BF-8D66239F5DDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D5914CB-898A-4273-95BF-8D66239F5DDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D5914CB-898A-4273-95BF-8D66239F5DDD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
