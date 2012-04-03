@@ -183,7 +183,9 @@
     <Content Include="Views\Home\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Bundles.config" />
+    <Content Include="Bundles.config">
+      <SubType>Designer</SubType>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\MvcBundleConfig\MvcBundleConfig.csproj">

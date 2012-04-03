@@ -2,6 +2,7 @@
 using System.Text;
 using System.Web.Mvc;
 using System.Web.Optimization;
+using MvcBundleConfig;
 using MvcBundleConfig.Configuration;
 
 namespace System.Web.Mvc

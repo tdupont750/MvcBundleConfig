@@ -52,7 +52,7 @@
   <ItemGroup>
     <Compile Include="Configuration\BundleConfigurationElement.cs" />
     <Compile Include="Configuration\BundleConfigurationElementCollection.cs" />
-    <Compile Include="Configuration\BundleConfigurationManager.cs" />
+    <Compile Include="BundleConfigurationManager.cs" />
     <Compile Include="Configuration\BundleConfigurationSection.cs" />
     <Compile Include="Configuration\BundleDirectoryConfigurationElement.cs" />
     <Compile Include="Configuration\BundleDirectoryConfigurationElementCollection.cs" />
@@ -60,6 +60,10 @@
     <Compile Include="Configuration\BundleFileConfigurationElementCollection.cs" />
     <Compile Include="Extensions\BundleCollectionExtensions.cs" />
     <Compile Include="Extensions\HtmlHelperExtensions.cs" />
+    <Compile Include="Models\BundleConfig.cs" />
+    <Compile Include="Models\BundleConfigCollection.cs" />
+    <Compile Include="Models\BundleDirectory.cs" />
+    <Compile Include="Models\BundleFile.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
