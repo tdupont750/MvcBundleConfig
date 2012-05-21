@@ -37,7 +37,7 @@ namespace MvcApplication
             BundleTable.Bundles.RegisterTemplateBundles();
 
             // Only code required for MvcBundleConfig wire up
-            BundleTable.Bundles.RegisterConfigurationBundles();
+            //BundleTable.Bundles.RegisterConfigurationBundles();
         }
     }
 }
