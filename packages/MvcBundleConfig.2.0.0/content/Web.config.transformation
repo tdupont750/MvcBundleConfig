@@ -1,0 +1,7 @@
+﻿<?xml version="1.0"?>
+<configuration>
+  <configSections>
+    <section name="bundleConfig" type="MvcBundleConfig.Configuration.BundleConfigurationSection" />
+  </configSections>
+  <bundleConfig configSource="Bundles.config" />
+</configuration>

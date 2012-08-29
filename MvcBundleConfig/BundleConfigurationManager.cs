@@ -69,8 +69,7 @@ namespace MvcBundleConfig
                     {
                         DirectoryPath = directory.DirectoryPath,
                         SearchPattern = directory.SearchPattern,
-                        SearchSubdirectories = directory.SearchSubdirectories,
-                        ThrowIfNotExist = directory.ThrowIfNotExist
+                        SearchSubdirectories = directory.SearchSubdirectories
                     });
                 }
 
@@ -78,8 +77,7 @@ namespace MvcBundleConfig
                 {
                     bundleConfig.Files.Add(new BundleFile
                     {
-                        FilePath = file.FilePath,
-                        ThrowIfNotExist = file.ThrowIfNotExist
+                        FilePath = file.FilePath
                     });
                 }
 

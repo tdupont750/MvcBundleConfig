@@ -7,6 +7,5 @@ namespace MvcBundleConfig.Models
     public class BundleFile
     {
         public string FilePath { get; set; }
-        public bool ThrowIfNotExist { get; set; }
     }
 }

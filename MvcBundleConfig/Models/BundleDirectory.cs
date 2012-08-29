@@ -5,6 +5,5 @@
         public string DirectoryPath { get; set; }
         public string SearchPattern { get; set; }
         public bool SearchSubdirectories { get; set; }
-        public bool ThrowIfNotExist { get; set; }
     }
 }

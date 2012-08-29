@@ -1,7 +1,7 @@
-﻿using System.Web.Optimization;
+using System.Web.Optimization;
 
-[assembly: WebActivator.PostApplicationStartMethod(typeof(/*$rootnamespace$*/MvcApplication.BundleConfigurationActivator), "Activate")]
-namespace MvcApplication /* $rootnamespace$ */
+[assembly: WebActivator.PostApplicationStartMethod(typeof(MvcApplication.BundleConfigurationActivator), "Activate")]
+namespace MvcApplication
 {
     public static class BundleConfigurationActivator
     {

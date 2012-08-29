@@ -25,16 +25,16 @@ namespace System.Web.Optimization
             foreach (var bundleConfig in bundleConfigs)
             {
                 var transform = bundleConfig.Minify
-                    ? (IBundleTransform)new T()
-                    : new NoTransform();
+                    ? (IBundleTransform) new T()
+                    : null;
 
                 var bundle = new Bundle(bundleConfig.BundlePath, transform);
 
                 foreach (var file in bundleConfig.Files)
-                    bundle.AddFile(file.FilePath, file.ThrowIfNotExist);
+                    bundle.Include(file.FilePath);
 
                 foreach (var directory in bundleConfig.Directories)
-                    bundle.AddDirectory(directory.DirectoryPath, directory.SearchPattern, directory.SearchSubdirectories, directory.ThrowIfNotExist);
+                    bundle.IncludeDirectory(directory.DirectoryPath, directory.SearchPattern, directory.SearchSubdirectories);
 
                 bundles.Add(bundle);
             }
