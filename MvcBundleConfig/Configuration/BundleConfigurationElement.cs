@@ -11,6 +11,13 @@ namespace MvcBundleConfig.Configuration
             set { this["bundlePath"] = value; }
         }
 
+        [ConfigurationProperty("cdnPath", IsRequired = false)]
+        public string CdnPath
+        {
+            get { return (string)this["cdnPath"]; }
+            set { this["cdnPath"] = value; }
+        }
+
         [ConfigurationProperty("minify", DefaultValue = true, IsRequired = false)]
         public bool Minify
         {

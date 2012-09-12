@@ -5,6 +5,7 @@ namespace MvcBundleConfig.Models
     public class BundleConfig
     {
         public string BundlePath { get; set; }
+        public string CdnPath { get; set; }
         public bool Minify { get; set; }
 
         public IList<BundleDirectory> Directories { get; set; }

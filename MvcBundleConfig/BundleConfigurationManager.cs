@@ -58,6 +58,7 @@ namespace MvcBundleConfig
                 var bundleConfig = new BundleConfig
                 {
                     BundlePath = bundle.BundlePath,
+                    CdnPath = bundle.CdnPath,
                     Minify = bundle.Minify,
                     Directories = new List<BundleDirectory>(),
                     Files = new List<BundleFile>()

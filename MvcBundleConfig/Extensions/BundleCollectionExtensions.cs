@@ -28,7 +28,9 @@ namespace System.Web.Optimization
                     ? (IBundleTransform) new T()
                     : null;
 
-                var bundle = new Bundle(bundleConfig.BundlePath, transform);
+                var bundle = String.IsNullOrWhiteSpace(bundleConfig.CdnPath)
+                    ? new Bundle(bundleConfig.BundlePath, transform)
+                    : new Bundle(bundleConfig.BundlePath, bundleConfig.CdnPath, transform);
 
                 foreach (var file in bundleConfig.Files)
                     bundle.Include(file.FilePath);
